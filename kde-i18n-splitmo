@@ -462,7 +462,6 @@ kdesdk	kfile_ts.mo
 kdesdk	kompare.mo
 kdesdk	kstartperf.mo
 kdesdk	kuiviewer.mo
-kdesdk	kxsldbg.mo
 kdesdk	qeditor.mo
 kdesdk	spy.mo
 kdesdk	umbrello.mo
@@ -502,5 +501,6 @@ kdeutils	ktimer.mo
 kdeutils	kwalletmanager.mo
 kdeutils	userinfo.mo
 quanta	quanta.mo
+quanta	kxsldbg.mo
 kdevelop	kdevelop.mo
 kdevelop	kdevtipofday.mo
