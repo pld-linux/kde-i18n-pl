@@ -88,6 +88,7 @@ kdegames	ktron
 kdegames	ktuberling
 kdegames	kwin4
 kdegames	lskat
+kdegames	megami
 ## kdegraphics
 ##############
 kdegraphics	kamera
@@ -113,6 +114,7 @@ kdemultimedia	kmidi
 kdemultimedia	kmix
 kdemultimedia	krec
 kdemultimedia	kscd
+kdemultimedia	noatun
 ## kdenetwork
 #############
 #kdenetwork	kcontrol
