@@ -1,0 +1,33 @@
+--- kde-i18n-pl/messages/kdepim/kmail.po.orig	2004-03-12 03:50:41.000000000 +0100
++++ kde-i18n-pl/messages/kdepim/kmail.po	2004-03-13 00:43:55.949004472 +0100
+@@ -1516,7 +1516,7 @@
+ "<p>Takie potwierdzenie ułatwia nadawcy zorientowanie się czy i - co "
+ "ważniejsze - <em>kiedy</em> odczytałeś wiadomość.</p>"
+ "<p>Można jednak wysyłać potwierdzenia <em>otrzymania</em> w bardziej "
+-"kontrolowany sposób, używając akcji filtra \"potwierdź odbiór\". "
++"kontrolowany sposób, używając akcji filtra &quot;potwierdź odbiór&quot;. "
+ "Radzimy ponadto wcale nie stosować potwierdzania <em>odczytu</em>.</p></qt>"
+ 
+ #: configuredialog.cpp:3118
+@@ -1552,10 +1552,10 @@
+ "<h3>Polityka powiadamiania o losie wiadomości</h3> "
+ "<p>"
+ "Powiadamianie o losie wiadomości (Message Disposition Notification, MDN) to "
+-"generalizacja tak zwanego \"potwierdzenia odbioru\". Autor wiadomości "
++"generalizacja tak zwanego &quot;potwierdzenia odbioru&quot;. Autor wiadomości "
+ "żąda od programu pocztowego odbiorcy powiadomienia, z którego autor może "
+ "dowiedzieć się, co stało się z jego wiadomością. Typowe losy "
+-"wiadomości to \"przeczytana\", \"usunięta\", \"przesłana\" (np. "
++"wiadomości to &quot;przeczytana&quot;, &quot;usunięta&quot;, &quot;przesłana&quot; (np. "
+ "przekazana dalej)</p> "
+ "<p>KMail oferuje następujące tryby obsługi MDN: "
+ "<ul>"
+@@ -1565,7 +1565,7 @@
+ "<li><em>Pytaj</em>: powiadomienia będą wysyłane dopiero po potwierdzeniu "
+ "przez użytkownika. Dzięki temu można będzie wysyłać MDN tylko dla "
+ "wybranych wiadomości.</li>"
+-"<li><em>Odrzuć</em>: zawsze wysyłana będzie odpowiedź \"Odrzucona\". "
++"<li><em>Odrzuć</em>: zawsze wysyłana będzie odpowiedź &quot;Odrzucona&quot;. "
+ "Jest to tylko <em>nieco</em> lepsze od wysyłania zawsze odpowiedniego MDN. "
+ "Autor będzie wiedział, że wiadomość została odebrana, nie będzie "
+ "jedynie wiedział, co się z nią dalej stało.</li>"
