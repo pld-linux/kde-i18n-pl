@@ -40,7 +40,7 @@ BuildRequires:	kdelibs >= %{version}
 BuildRequires:	kdelibs-devel
 BuildRequires:	libxml2-progs >= 2.4.2
 BuildRequires:	gettext-devel
-%if %{?_with_subpackages:0}1
+%if %{!?_with_subpackages:1}0
 Conflicts:	%{_p1}-%{_part}
 Conflicts:	%{_p2}-%{_part}
 Conflicts:	%{_p3}-%{_part}
@@ -323,7 +323,7 @@ done
 %clean
 rm -rf $RPM_BUILD_ROOT
 
-%if %{?_with_subpackages:0}1
+%if %{!?_with_subpackages:1}0
 %files
 %defattr(644,root,root,755)
 %{_htmldir}/%{_lang}
