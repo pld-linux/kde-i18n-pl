@@ -2,8 +2,13 @@
 #
 # ???		cupsdconf.mo
 # ???		desktop.mo
-# kdelibs	katepart.mo
-# kdelibs	kdelibs.mo
+kdelibs		devcenter.mo		# Co to jest? tylko po Polsku
+kdelibs		imagerename_plugin.mo	# Co to jest? tylko po Polsku
+kdelibs		katepart.mo
+kdelibs		kdelibs.mo
+kdelibs		kfile_diff.mo		# Co to?
+kdelibs		klogic.mo		# Co to wogóle jest?
+kdelibs		krfb.mo			# Co to jest? tylko po Wietnamsku...
 # ???		kmcop.mo
 # ???		knotify.mo
 # ???		libkscreensaver.mo
@@ -34,7 +39,7 @@ kdeadmin	kcmlinuz.mo
 kdeadmin	kcron.mo
 kdeadmin	kdat.mo
 kdeadmin	kpackage.mo
-# kdeadmin (rm)	ksysctrl.mo			-> kdenonbeta (jesli brak) - to duplikat
+kdeadmin	ksysctrl.mo
 kdeadmin	ksysv.mo
 kdeadmin	kuser.mo
 kdeadmin	kwuftpd.mo
@@ -76,7 +81,7 @@ kdebase		kcminfo.mo
 kdebase		kcminput.mo
 kdebase		kcmioslaveinfo.mo
 kdebase		kcmkclock.mo
-# kdebase	kcmkdb.mo		brak (-> nonbeta ???)
+kdebase		kcmkdb.mo
 kdebase		kcmkeys.mo
 kdebase		kcmkicker.mo
 kdebase		kcmkio.mo
@@ -138,6 +143,7 @@ kdebase		kio_smbro.mo
 kdebase		kio_smtp.mo
 kdebase		kjobviewer.mo
 kdebase		klegacyimport.mo
+kdebase		kless.mo
 kdebase		klipper.mo
 # korzystaja z tego m. in. wyswietlacze w kdeartworks oraz kscreensaver
 # (kdebase-screensavers)
@@ -201,6 +207,7 @@ kdegames	kbackgammon.mo
 kdegames	kbattleship.mo
 kdegames	kblackbox.mo
 kdegames	kbounce.mo
+kdegames	kchat.mo
 kdegames	kenolaba.mo
 kdegames	kjezz.mo
 kdegames	kjumpingcube.mo
@@ -287,10 +294,8 @@ kdenetwork	libkdenetwork.mo
 ###kdenonbeta	colfind.mo
 ###kdenonbeta	columbo.mo
 ###kdenonbeta	cookbook.mo
-###kdenonbeta	devcenter.mo
 ###kdenonbeta	dvd.mo
 ###kdenonbeta	gofai.mo
-###kdenonbeta	imagerename_plugin.mo
 ###kdenonbeta	kafka.mo
 ###kdenonbeta	kalaktic.mo
 ###kdenonbeta	karchiver.mo
@@ -343,7 +348,6 @@ kdenetwork	libkdenetwork.mo
 ###kdenonbeta	kpplot.mo
 ###kdenonbeta	krn.mo
 ###kdenonbeta	kstockticker.mo
-###kdenonbeta	ksysctrl.mo
 ###kdenonbeta	ksystrayproxy.mo
 ###kdenonbeta	ktables.mo
 ###kdenonbeta	ktalk.mo
@@ -378,10 +382,9 @@ kdesdk		kbabel.mo
 kdesdk		kbabeldict.mo
 kdesdk		kbugbuster.mo
 # kdesdk ?	kdevelop.mo
-# kdesdk ?	kdevtipofday.mo
-# kdesdk ?	kless.mo
+kdesdk		kdevtipofday.mo
 kdesdk		kompare.mo
-# kdesdk (nu)	kstartperf.mo		(nie kompilowany)
+kdesdk		kstartperf.mo
 kdesdk		spy.mo
 kdetoys		amor.mo
 kdetoys		kaphorism.mo
