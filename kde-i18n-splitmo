@@ -280,7 +280,7 @@ kdenetwork	ksirc.mo
 kdenetwork	ktalkd.mo
 kdenetwork	kxmlrpcd.mo
 kdenetwork	libkdenetwork.mo
-kdenonbeta	Kiten.mo
+###kdenonbeta	Kiten.mo
 ###kdenonbeta	atlantik.mo
 ###kdenonbeta	atlantikdesigner.mo
 kdenonbeta	caitoo.mo
