@@ -4,8 +4,8 @@
 #
 
 %define         _state          snapshots
-%define         _ver		3.1.93
-%define         _snap		031107
+%define         _ver		3.2.90
+%define         _snap		040128
 
 %define		_topic		i18n
 %define		_lang		pl
@@ -36,7 +36,7 @@ Epoch:		1
 License:	GPL/LGPL
 Group:		X11/Applications
 Source0:        http://www.kernel.pl/~adgor/kde/%{name}-%{_snap}.tar.bz2
-# Source0-md5:	25b1c7f85e367852199e936f917e8c82
+# Source0-md5:	78971760df6279e8321b5414bfa3de50
 Source1:	kde-i18n-splitmo
 Source2:	kde-i18n-splitdoc
 BuildRequires:	kdelibs-devel >= 9:3.1.93
@@ -332,7 +332,9 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %{_kdedocdir}/%{_lang}
-%{_datadir}/locale/%{_lang}/entry.desktop
+#%{_datadir}/locale/%{_lang}/entry.desktop
+%{_datadir}/locale/%{_lang}/charset
+%{_datadir}/locale/%{_lang}/*.*
 %{_messagesdir}/* 
 %else
 %files -n %{_p1}-%{_part} -f %{_p1}.cont 
