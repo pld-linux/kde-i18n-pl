@@ -4,7 +4,7 @@
 #
 
 %define         _state          snapshots
-%define         _ver		3.1.91
+%define         _ver		3.1.92
 
 %define		_topic		i18n
 %define		_lang		pl
@@ -30,7 +30,7 @@ Summary:	K Desktop Environment - Polish support
 Summary(pl):	KDE - wsparcie dla jêzyka polskiego
 Name:		kde-%{_part}
 Version:	%{_ver}
-Release:	1
+Release:	2
 Epoch:		1
 License:	GPL/LGPL
 Group:		X11/Applications
@@ -38,8 +38,8 @@ Source0:        http://www.kernel.pl/~adgor/kde/%{name}-%{version}.tar.bz2
 # Source0-md5:	96fe0623ca0015eb16a18cd1290950fb
 Source1:	kde-i18n-splitmo
 Source2:	kde-i18n-splitdoc
-BuildRequires:	kdelibs >= %{version}
-BuildRequires:	kdelibs-devel
+BuildRequires:	kdelibs >= 9:%{version}
+BuildRequires:	kdelibs-devel >= 9:%{version}
 BuildRequires:	libxml2-progs >= 2.4.2
 BuildRequires:	gettext-devel
 %if %{?_with_subpackages:0}1
@@ -300,9 +300,6 @@ rm -rf $RPM_BUILD_ROOT
 
 install -d $RPM_BUILD_ROOT%{_htmldir}/%{_lang}
 
-install messages/{charset,entry.desktop,flag.png} \
-	$RPM_BUILD_ROOT%{_datadir}/locale/%{_lang}
-
 %if %{?_with_subpackages:1}0
 touch {%{_p1},%{_p2},%{_p3},%{_p4},%{_p7},%{_p5},%{_p6},%{_p8},%{_p9},%{_p10},\
 %{_p11},%{_p12},%{_p13},%{_p14},%{_p15}}.cont
@@ -333,8 +330,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %{_htmldir}/%{_lang}
-%{_datadir}/locale/%{_lang}/charset
-%{_datadir}/locale/%{_lang}/*.*
+%{_datadir}/locale/%{_lang}/entry.desktop
 %{_messagesdir}/* 
 %else
 %files -n %{_p1}-%{_part} -f %{_p1}.cont 
