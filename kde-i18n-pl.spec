@@ -1,10 +1,10 @@
 #
 # Conditional build:
-# --with        subpackages             Builds subpackages
+# --with	subpackages	Builds subpackages
 #
 
-%define         _state          stable
-%define         _ver		3.1.3
+%define		_state		stable
+%define		_ver		3.1.3
 
 %define		_topic		i18n
 %define		_lang		pl
@@ -34,7 +34,7 @@ Release:	1
 Epoch:		1
 License:	GPL/LGPL
 Group:		X11/Applications
-Source0:        ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/kde-i18n/%{name}-%{version}.tar.bz2
+Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/kde-i18n/%{name}-%{version}.tar.bz2
 # Source0-md5:	8a59eed1989576084d20631ba94be07a
 Source1:	kde-i18n-splitmo
 Source2:	kde-i18n-splitdoc
@@ -64,8 +64,8 @@ Obsoletes:	kde-%{_topic}-Polish
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define         _htmldir        %{_docdir}/kde/HTML
-%define         _messagesdir    %{_datadir}/locale/%{_lang}/LC_MESSAGES
+%define		_htmldir	%{_docdir}/kde/HTML
+%define		_messagesdir	%{_datadir}/locale/%{_lang}/LC_MESSAGES
 
 %description
 K Desktop Environment - Polish support.
@@ -272,7 +272,7 @@ KDE - wsparcie dla jêzyka polskiego - t³umaczenia dla %{_p14}.
 Summary:	KDE - Polish support - %{_p15}
 Summary(pl):	KDE - wsparcie dla jêzyka polskiego - %{_p15}
 Group:		X11/Applications
-Requires:       %{_p1}-%{_part} = %{version}
+Requires:	%{_p1}-%{_part} = %{version}
 Conflicts:	kde-%{_topic}
 Conflicts:	kde-%{_part}
 
@@ -305,22 +305,23 @@ touch {%{_p1},%{_p2},%{_p3},%{_p4},%{_p7},%{_p5},%{_p6},%{_p8},%{_p9},%{_p10},\
 %{_p11},%{_p12},%{_p13},%{_p14},%{_p15}}.cont
 
 grep -v '^#' < %{SOURCE1} | \
-while read package file ; do                                                                                    
-    if [ "$package" != "" -a "$file" != "" ] ; then
-	if ls $RPM_BUILD_ROOT/%{_messagesdir} |grep -q $file; then
-	    echo "%{_messagesdir}/$file" >> $package.cont                                     
+while read package file ; do
+	if [ "$package" != "" -a "$file" != "" ] ; then
+		if ls $RPM_BUILD_ROOT%{_messagesdir} |grep -q $file; then
+			echo "%{_messagesdir}/$file" >> $package.cont
+		fi
 	fi
-    fi	     
-done                                                                                                            
-											                                                                                                                
+done
+
 grep -v '^#' < %{SOURCE2} | \
 while read package directory ; do
-    if [ "$package" != "" -a "$directory" != "" ] ; then
-	if ls $RPM_BUILD_ROOT/%{_htmldir}/%{_lang} |grep -q $directory; then
-	    echo "%{_htmldir}/%{_lang}/$directory" >> $package.cont
+	if [ "$package" != "" -a "$directory" != "" ] ; then
+		if ls $RPM_BUILD_ROOT%{_htmldir}/%{_lang} |grep -q $directory; then
+			echo "%{_htmldir}/%{_lang}/$directory" >> $package.cont
+		fi
 	fi
-    fi
-done    	          
+done
+
 %endif
 
 %clean
