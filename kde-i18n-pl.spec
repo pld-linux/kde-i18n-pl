@@ -4,8 +4,7 @@
 #
 
 %define         _state          snapshots
-%define         _ver		3.1.90
-%define         _snap           030618
+%define         _ver		3.1.91
 
 %define		_topic		i18n
 %define		_lang		pl
@@ -30,13 +29,13 @@
 Summary:	K Desktop Environment - Polish support
 Summary(pl):	KDE - wsparcie dla jêzyka polskiego
 Name:		kde-%{_part}
-Version:	%{_ver}.%{_snap}
+Version:	%{_ver}
 Release:	1
 Epoch:		1
 License:	GPL/LGPL
 Group:		X11/Applications
-Source0:        http://www.kernel.pl/~adgor/kde/%{name}-%{_snap}.tar.bz2
-# Source0-md5:	1521f78f482a4e5092703220ada9e608
+Source0:        http://www.kernel.pl/~adgor/kde/%{name}-%{version}.tar.bz2
+# Source0-md5:	96fe0623ca0015eb16a18cd1290950fb
 Source1:	kde-i18n-splitmo
 Source2:	kde-i18n-splitdoc
 BuildRequires:	kdelibs >= %{version}
@@ -284,7 +283,7 @@ K Desktop Environment - Polish support - translations for %{_p15}.
 KDE - wsparcie dla jêzyka polskiego - t³umaczenia dla %{_p15}.
 
 %prep
-%setup -q -n %{name}
+%setup -q
 
 %build
 
@@ -300,6 +299,9 @@ rm -rf $RPM_BUILD_ROOT
 	kde_htmldir=%{_htmldir}
 
 install -d $RPM_BUILD_ROOT%{_htmldir}/%{_lang}
+
+install messages/{charset,entry.desktop,flag.png} \
+	$RPM_BUILD_ROOT%{_datadir}/locale/%{_lang}
 
 %if %{?_with_subpackages:1}0
 touch {%{_p1},%{_p2},%{_p3},%{_p4},%{_p7},%{_p5},%{_p6},%{_p8},%{_p9},%{_p10},\
