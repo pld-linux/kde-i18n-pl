@@ -449,8 +449,6 @@ kdepim	libksync.mo
 kdesdk	cervisia.mo
 kdesdk	cvsservice.mo
 kdesdk	desktop_kdesdk.mo
-kdesdk	desktop_kdevelop.mo
-kdesdk	desktop_quanta.mo
 kdesdk	kbabel.mo
 kdesdk	kbugbuster.mo
 kdesdk	kcachegrind.mo
@@ -502,5 +500,7 @@ kdeutils	kwalletmanager.mo
 kdeutils	userinfo.mo
 quanta	quanta.mo
 quanta	kxsldbg.mo
+quanta  desktop_quanta.mo
 kdevelop	kdevelop.mo
 kdevelop	kdevtipofday.mo
+kdevelop  desktop_kdevelop.mo
