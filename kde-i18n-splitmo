@@ -185,7 +185,6 @@ kdebase		kfile_font.mo
 kdebase		kfind.mo
 kdebase		kfindpart.mo
 kdebase		kfmclient.mo
-kdebase		kfmexec.mo
 kdebase		kfontviewpart.mo
 kdebase		khelpcenter.mo
 kdebase		khotkeys.mo
@@ -205,6 +204,7 @@ kdebase		kio_sftp.mo
 kdebase		kio_smb.mo
 kdebase		kio_smbro.mo
 kdebase		kio_smtp.mo
+kdebase		kioexec.mo
 kdebase		kjobviewer.mo
 kdebase		klegacyimport.mo
 kdebase		klipper.mo
