@@ -125,3 +125,7 @@ kdeutils	klprfax
 kdeutils	knotes
 kdeutils	ktimer
 # kdevelop	kdevelop
+
+#<adgor>
+kdevelop	kdevelop
+#</adgor>
