@@ -38,8 +38,7 @@ Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/kde-i18n/%{name}-%{v
 # Source0-md5:	7cce45b1f072482f5f7f0829668393d3
 Source1:	kde-i18n-splitmo
 Source2:	kde-i18n-splitdoc
-BuildRequires:	kdelibs >= %{version}
-BuildRequires:	kdelibs-devel
+BuildRequires:	kdelibs-devel >= 9:%{version}
 BuildRequires:	libxml2-progs >= 2.4.2
 BuildRequires:	gettext-devel
 %if %{?_with_subpackages:0}1
