@@ -1,12 +1,16 @@
-#  spec		dir
-# kdelibs
+##  spec	dir
+
+## kdelibs
+##########
 kdelibs		common
 kdelibs		kspell
-# kdeaddons
+## kdeaddons
+############
 kdeaddons	kate-plugins
 kdeaddons	kicker-applets
 kdeaddons	konq-plugins
-# kdeadmin
+## kdeadmin
+###########
 kdeadmin	kcron
 kdeadmin	kdat
 kdeadmin	kpackage
@@ -14,7 +18,8 @@ kdeadmin	ksysv
 kdeadmin	kuser
 kdeadmin	kwuftpd
 kdeadmin	kxconfig
-# kdebase
+## kdebase
+##########
 kdebase		kate
 kdebase		kcontrol
 kdebase		kdebugdialog
@@ -22,7 +27,7 @@ kdebase		kdeprint
 kdebase		kdesu
 kdebase		kdm
 kdebase		kfind
-kdebase 	khelpcenter
+kdebase		khelpcenter
 kdebase		kicker
 kdebase		kinfocenter
 kdebase		kioslave
@@ -33,7 +38,8 @@ kdebase		konsole
 kdebase		kpager
 kdebase		ksysguard
 kdebase		kwrite
-# kdeedu
+## kdeedu
+#########
 kdeedu		flashkard
 kdeedu		kalzium
 kdeedu		keduca
@@ -49,7 +55,8 @@ kdeedu		kstars
 kdeedu		ktouch
 kdeedu		kverbos
 kdeedu		kvoctrain
-# kdegames
+## kdegames
+###########
 kdegames	atlantik
 kdegames	kasteroids
 kdegames	katomic
@@ -78,7 +85,9 @@ kdegames	ktron
 kdegames	ktuberling
 kdegames	kwin4
 kdegames	lskat
-# kdegraphics
+kdegames	megami
+## kdegraphics
+##############
 kdegraphics	kamera
 kdegraphics	kcoloredit
 kdegraphics	kdvi
@@ -91,18 +100,21 @@ kdegraphics	kruler
 kdegraphics	ksnapshot
 kdegraphics	kuickshow
 kdegraphics	kview
-# kdemultimedia
+## kdemultimedia
+################
 kdemultimedia	aktion
 kdemultimedia	artsbuilder
 kdemultimedia	kaboodle
-kdemultimedia	kcontrol
+#kdemultimedia	kcontrol
 kdemultimedia	kmid
 kdemultimedia	kmidi
 kdemultimedia	kmix
 kdemultimedia	krec
 kdemultimedia	kscd
-# kdenetwork
-kdenetwork	kcontrol
+kdemultimedia	noatun
+## kdenetwork
+#############
+#kdenetwork	kcontrol
 kdenetwork	kdict
 kdenetwork	kgpgcertmanager
 kdenetwork	kit
@@ -116,21 +128,24 @@ kdenetwork	krfb
 kdenetwork	ksirc
 kdenetwork	ktalkd
 kdenetwork	lisa
-# kdepim
+## kdepim
+#########
 kdepim		kaddressbook
 kdepim		kalarm
 kdepim		kandy
 kdepim		karm
-kdepim		kcontrol
+#kdepim		kcontrol
 kdepim		knotes
 kdepim		korganizer
 kdepim		kpilot
-# kdesdk
+## kdesdk
+#########
 kdesdk		cervisia
 kdesdk		kbabel
 kdesdk		kbugbuster
 kdesdk		kompare
-# kdetoys
+## kdetoys
+##########
 kdetoys		amor
 kdetoys		kaphorism
 kdetoys		kmoon
@@ -138,19 +153,21 @@ kdetoys		kodo
 kdetoys		kteatime
 kdetoys		kweather
 kdetoys		kworldclock
-# kdeutils
+## kdeutils
+###########
 kdeutils	ark
 kdeutils	kcalc
 kdeutils	kcharselect
-kdeutils	kcontrol
+#kdeutils	kcontrol
 kdeutils	kdf
 kdeutils	kedit
 kdeutils	kfloppy
 kdeutils	khexedit
-kdeutils	kinfocenter
+#kdeutils	kinfocenter
 kdeutils	kjots
 kdeutils	KRegExpEditor
 kdeutils	ksim
 kdeutils	ktimer
-# quanta
+## quanta
+#########
 quanta		quanta
