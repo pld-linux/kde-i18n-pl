@@ -119,14 +119,14 @@ kdepim	kaddressbook
 kdepim	kalarm
 kdepim	kandy
 kdepim	karm
-kdepim	kgpgcertmanager
+#kdepim	kgpgcertmanager
 kdepim	kmail
 kdepim	knode
 kdepim	knotes
 kdepim	konsolekalendar
 kdepim	kontact
 kdepim	korganizer
-kdepim	korn
+#kdepim	korn
 kdepim	kpilot
 kdesdk	cervisia
 kdesdk	kbabel
