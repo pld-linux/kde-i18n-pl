@@ -104,6 +104,7 @@ kdebase		appletproxy.mo
 kdebase		childpanelextension.mo
 kdebase		clockapplet.mo
 kdebase		desktop_kdebase.mo
+kdebase		dockbarextension.mo
 kdebase		drkonqi.mo
 kdebase		extensionproxy.mo
 kdebase		filetypes.mo
@@ -170,6 +171,7 @@ kdebase		kdebugdialog.mo
 kdebase		kdeprintfax.mo
 kdebase		kdeprint_part.mo
 kdebase		kdesktop.mo
+kdebase		kdesktop_lock.mo
 kdebase		kdesud.mo
 kdebase		kdesu.mo
 kdebase		kdialog.mo
@@ -187,6 +189,7 @@ kdebase		khotkeys.mo
 kdebase		kicker.mo
 kdebase		kio_devices.mo
 kdebase		kio_finger.mo
+kdebase		kio_fish.mo
 kdebase		kio_floppy.mo
 kdebase		kio_imap4.mo
 kdebase		kio_mac.mo
@@ -306,6 +309,7 @@ kdegames	multiplayers.mo
 # kdegraphics
 kdegraphics	desktop_kdegraphics.mo
 kdegraphics	kcmkamera.mo
+kdegraphics	kcmkmrml.mo
 kdegraphics	kcoloredit.mo
 kdegraphics	kdvi.mo
 kdegraphics	kfax.mo
