@@ -30,7 +30,7 @@ Summary:	K Desktop Environment - Polish support
 Summary(pl):	KDE - wsparcie dla jêzyka polskiego
 Name:		kde-%{_part}
 Version:	%{_ver}
-Release:	0.%{_snap}.1
+Release:	1
 License:	GPL/LGPL
 Group:		X11/Applications
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{_ver}/src/kde-%{_topic}/%{name}-%{version}.tar.bz2
