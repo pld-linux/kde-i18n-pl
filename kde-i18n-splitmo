@@ -500,7 +500,7 @@ kdeutils	userinfo.mo
 quanta	quanta.mo
 quanta	kxsldbg.mo
 quanta  desktop_quanta.mo
-kdevelop	kdevelop.mo
+#kdevelop	kdevelop.mo
 kdevelop	kdevtipofday.mo
 kdevelop  desktop_kdevelop.mo
 kdevelop  qeditor.mo
