@@ -1,11 +1,11 @@
 #
 # Conditional build:
-# --with        subpackages             Builds subpackages
+# --with	subpackages	Builds subpackages
 #
 
-%define         _state          snapshots
-%define         _ver		3.2.90
-%define         _snap		040517
+%define		_state		snapshots
+%define		_ver		3.2.90
+%define		_snap		040517
 
 %define		_topic		i18n
 %define		_lang		pl
@@ -18,12 +18,12 @@
 %define		_p5		kdebase
 %define		_p6		kdebindings
 %define		_p7		kdeedu
-%define		_p8		kdegames 
+%define		_p8		kdegames
 %define		_p9		kdegraphics
 %define		_p10		kdemultimedia
 %define		_p11		kdenetwork
 %define		_p12		kdepim
-%define		_p13		kdesdk 
+%define		_p13		kdesdk
 %define		_p14		kdetoys
 %define		_p15		kdevelop
 
@@ -35,7 +35,7 @@ Release:	1
 Epoch:		1
 License:	GPL/LGPL
 Group:		X11/Applications
-Source0:        http://ep09.pld-linux.org/~adgor/kde/%{name}-%{_snap}.tar.bz2
+Source0:	http://ep09.pld-linux.org/~adgor/kde/%{name}-%{_snap}.tar.bz2
 ##%% Source0-md5:	fab65cd1206d1d992efb16c5d1ab2ad9
 Source1:	kde-i18n-splitmo
 Source2:	kde-i18n-splitdo
@@ -66,7 +66,7 @@ Obsoletes:	kde-%{_topic}-Polish
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define         _messagesdir    %{_datadir}/locale/%{_lang}/LC_MESSAGES
+%define		_messagesdir	%{_datadir}/locale/%{_lang}/LC_MESSAGES
 
 %description
 K Desktop Environment - Polish support.
@@ -84,7 +84,7 @@ Conflicts:	kde-%{_part}
 %description -n %{_p1}-%{_part}
 K Desktop Environment - Polish support - translations for %{_p1}.
 
-%description -n %{_p1}-%{_part} -l pl 
+%description -n %{_p1}-%{_part} -l pl
 KDE - wsparcie dla jêzyka polskiego - t³umaczenia dla %{_p1}.
 
 %package -n %{_p2}-%{_part}
@@ -98,7 +98,7 @@ Conflicts:	kde-%{_part}
 %description -n %{_p2}-%{_part}
 K Desktop Environment - Polish support - translations for %{_p2}.
 
-%description -n %{_p2}-%{_part} -l pl 
+%description -n %{_p2}-%{_part} -l pl
 KDE - wsparcie dla jêzyka polskiego - t³umaczenia dla %{_p2}.
 
 %package -n %{_p3}-%{_part}
@@ -112,7 +112,7 @@ Conflicts:	kde-%{_part}
 %description -n %{_p3}-%{_part}
 K Desktop Environment - Polish support - translations for %{_p3}.
 
-%description -n %{_p3}-%{_part} -l pl 
+%description -n %{_p3}-%{_part} -l pl
 KDE - wsparcie dla jêzyka polskiego - t³umaczenia dla %{_p3}.
 
 %package -n %{_p4}-%{_part}
@@ -126,7 +126,7 @@ Conflicts:	kde-%{_part}
 %description -n %{_p4}-%{_part}
 K Desktop Environment - Polish support - translations for %{_p4}.
 
-%description -n %{_p4}-%{_part} -l pl 
+%description -n %{_p4}-%{_part} -l pl
 KDE - wsparcie dla jêzyka polskiego - t³umaczenia dla %{_p4}.
 
 %package -n %{_p5}-%{_part}
@@ -140,7 +140,7 @@ Conflicts:	kde-%{_part}
 %description -n %{_p5}-%{_part}
 K Desktop Environment - Polish support - translations for %{_p5}.
 
-%description -n %{_p5}-%{_part} -l pl 
+%description -n %{_p5}-%{_part} -l pl
 KDE - wsparcie dla jêzyka polskiego - t³umaczenia dla %{_p5}.
 
 %package -n %{_p6}-%{_part}
@@ -154,7 +154,7 @@ Conflicts:	kde-%{_part}
 %description -n %{_p6}-%{_part}
 K Desktop Environment - Polish support - translations for %{_p6}.
 
-%description -n %{_p6}-%{_part} -l pl 
+%description -n %{_p6}-%{_part} -l pl
 KDE - wsparcie dla jêzyka polskiego - t³umaczenia dla %{_p6}.
 
 %package -n %{_p7}-%{_part}
@@ -168,7 +168,7 @@ Conflicts:	kde-%{_part}
 %description -n %{_p7}-%{_part}
 K Desktop Environment - Polish support - translations for %{_p7}.
 
-%description -n %{_p7}-%{_part} -l pl 
+%description -n %{_p7}-%{_part} -l pl
 KDE - wsparcie dla jêzyka polskiego - t³umaczenia dla %{_p7}.
 
 %package -n %{_p8}-%{_part}
@@ -182,7 +182,7 @@ Conflicts:	kde-%{_part}
 %description -n %{_p8}-%{_part}
 K Desktop Environment - Polish support - translations for %{_p8}.
 
-%description -n %{_p8}-%{_part} -l pl 
+%description -n %{_p8}-%{_part} -l pl
 KDE - wsparcie dla jêzyka polskiego - t³umaczenia dla %{_p8}.
 
 %package -n %{_p9}-%{_part}
@@ -196,7 +196,7 @@ Conflicts:	kde-%{_part}
 %description -n %{_p9}-%{_part}
 K Desktop Environment - Polish support - translations for %{_p9}.
 
-%description -n %{_p9}-%{_part} -l pl 
+%description -n %{_p9}-%{_part} -l pl
 KDE - wsparcie dla jêzyka polskiego - t³umaczenia dla %{_p9}.
 
 %package -n %{_p10}-%{_part}
@@ -210,7 +210,7 @@ Conflicts:	kde-%{_part}
 %description -n %{_p10}-%{_part}
 K Desktop Environment - Polish support - translations for %{_p10}.
 
-%description -n %{_p10}-%{_part} -l pl 
+%description -n %{_p10}-%{_part} -l pl
 KDE - wsparcie dla jêzyka polskiego - t³umaczenia dla %{_p10}.
 
 %package -n %{_p11}-%{_part}
@@ -224,7 +224,7 @@ Conflicts:	kde-%{_part}
 %description -n %{_p11}-%{_part}
 K Desktop Environment - Polish support - translations for %{_p11}.
 
-%description -n %{_p11}-%{_part} -l pl 
+%description -n %{_p11}-%{_part} -l pl
 KDE - wsparcie dla jêzyka polskiego - t³umaczenia dla %{_p11}.
 
 %package -n %{_p12}-%{_part}
@@ -238,7 +238,7 @@ Conflicts:	kde-%{_part}
 %description -n %{_p12}-%{_part}
 K Desktop Environment - Polish support - translations for %{_p12}.
 
-%description -n %{_p12}-%{_part} -l pl 
+%description -n %{_p12}-%{_part} -l pl
 KDE - wsparcie dla jêzyka polskiego - t³umaczenia dla %{_p12}.
 
 %package -n %{_p13}-%{_part}
@@ -252,7 +252,7 @@ Conflicts:	kde-%{_part}
 %description -n %{_p13}-%{_part}
 K Desktop Environment - Polish support - translations for %{_p13}.
 
-%description -n %{_p13}-%{_part} -l pl 
+%description -n %{_p13}-%{_part} -l pl
 KDE - wsparcie dla jêzyka polskiego - t³umaczenia dla %{_p13}.
 
 %package -n %{_p14}-%{_part}
@@ -266,21 +266,21 @@ Conflicts:	kde-%{_part}
 %description -n %{_p14}-%{_part}
 K Desktop Environment - Polish support - translations for %{_p14}.
 
-%description -n %{_p14}-%{_part} -l pl 
+%description -n %{_p14}-%{_part} -l pl
 KDE - wsparcie dla jêzyka polskiego - t³umaczenia dla %{_p14}.
 
 %package -n %{_p15}-%{_part}
 Summary:	KDE - Polish support - %{_p15}
 Summary(pl):	KDE - wsparcie dla jêzyka polskiego - %{_p15}
 Group:		X11/Applications
-Requires:       %{_p1}-%{_part} = %{version}
+Requires:	%{_p1}-%{_part} = %{version}
 Conflicts:	kde-%{_topic}
 Conflicts:	kde-%{_part}
 
 %description -n %{_p15}-%{_part}
 K Desktop Environment - Polish support - translations for %{_p15}.
 
-%description -n %{_p15}-%{_part} -l pl 
+%description -n %{_p15}-%{_part} -l pl
 KDE - wsparcie dla jêzyka polskiego - t³umaczenia dla %{_p15}.
 
 %prep
@@ -313,22 +313,22 @@ touch {%{_p1},%{_p2},%{_p3},%{_p4},%{_p7},%{_p5},%{_p6},%{_p8},%{_p9},%{_p10},\
 %{_p11},%{_p12},%{_p13},%{_p14},%{_p15}}.cont
 
 grep -v '^#' < %{SOURCE1} | \
-while read package file ; do                                                                                    
-    if [ "$package" != "" -a "$file" != "" ] ; then
-	if ls $RPM_BUILD_ROOT/%{_messagesdir} |grep -q $file; then
-	    echo "%{_messagesdir}/$file" >> $package.cont                                     
+while read package file ; do
+	if [ "$package" != "" -a "$file" != "" ] ; then
+		if ls $RPM_BUILD_ROOT/%{_messagesdir} |grep -q $file; then
+			echo "%{_messagesdir}/$file" >> $package.cont
+		fi
 	fi
-    fi	     
-done                                                                                                            
-											                                                                                                                
+done
+
 grep -v '^#' < %{SOURCE2} | \
 while read package directory ; do
-    if [ "$package" != "" -a "$directory" != "" ] ; then
-	if ls $RPM_BUILD_ROOT/%{_htmldir}/%{_lang} |grep -q $directory; then
-	    echo "%{_htmldir}/%{_lang}/$directory" >> $package.cont
+	if [ "$package" != "" -a "$directory" != "" ] ; then
+		if ls $RPM_BUILD_ROOT/%{_htmldir}/%{_lang} |grep -q $directory; then
+			echo "%{_htmldir}/%{_lang}/$directory" >> $package.cont
+		fi
 	fi
-    fi
-done    	          
+done
 %endif
 
 %clean
@@ -341,9 +341,9 @@ rm -rf $RPM_BUILD_ROOT
 #%{_datadir}/locale/%{_lang}/entry.desktop
 %{_datadir}/locale/%{_lang}/charset
 %{_datadir}/locale/%{_lang}/*.*
-%{_messagesdir}/* 
+%{_messagesdir}/*
 %else
-%files -n %{_p1}-%{_part} -f %{_p1}.cont 
+%files -n %{_p1}-%{_part} -f %{_p1}.cont
 %defattr(644,root,root,755)
 %dir %{_htmldir}/%{_lang}
 %{_datadir}/locale/%{_lang}/charset
