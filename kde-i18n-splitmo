@@ -87,6 +87,7 @@ kdeartwork	kpartsaver.mo
 kdeartwork	ksysctrl.mo
 kdeartwork	kwin_cde_config.mo
 kdeartwork	kwin_glow_config.mo
+kdeartwork	kxsconfig.mo
 # kdeadmin
 kdeadmin	desktop_kdeadmin.mo
 kdeadmin	kcmlilo.mo
@@ -237,7 +238,6 @@ kdebase		kwin_keramik_config.mo
 kdebase		kwin_modernsys_config.mo
 kdebase		kwin_quartz_config.mo
 kdebase		kxkb.mo
-kdebase		kxsconfig.mo
 kdebase		libkicker.mo
 kdebase		libkickermenu_kdeprint.mo
 kdebase		libkickermenu_konsole.mo
