@@ -91,6 +91,11 @@ kdenetwork	kppp
 kdenetwork	ksirc
 kdenetwork	ktalkd
 kdenetwork	lisa
+#kdenonbeta	caitoo
+#kdenonbeta	columbo
+#kdenonbeta	kikbd
+#kdenonbeta	knu
+#kdenonbeta	koncd
 kdepim		kalarm
 kdepim		kandy
 kdepim		karm
@@ -102,6 +107,7 @@ kdetoys		amor
 kdetoys		kaphorism
 kdetoys		kmoon
 kdetoys		kodo
+kdetoys		kscore
 kdetoys		kteatime
 kdetoys		kweather
 kdeutils	KRegExpEditor
@@ -119,3 +125,7 @@ kdeutils	klprfax
 kdeutils	knotes
 kdeutils	ktimer
 # kdevelop	kdevelop
+
+#<adgor>
+kdevelop	kdevelop
+#</adgor>

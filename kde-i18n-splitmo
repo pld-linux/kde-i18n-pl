@@ -2,8 +2,18 @@
 #
 # ???		cupsdconf.mo
 # ???		desktop.mo
-# ???		katepart.mo
-# ???		kdelibs.mo
+# Co to jest? tylko po Polsku
+kdelibs		devcenter.mo
+# Co to jest? tylko po Polsku
+kdelibs		imagerename_plugin.mo
+kdelibs		katepart.mo
+kdelibs		kdelibs.mo
+# Co to?
+kdelibs		kfile_diff.mo
+# Co to wogóle jest?
+kdelibs		klogic.mo
+# Co to jest? tylko po Wietnamsku...
+kdelibs		krfb.mo
 # ???		kmcop.mo
 # ???		knotify.mo
 # ???		libkscreensaver.mo
@@ -34,7 +44,7 @@ kdeadmin	kcmlinuz.mo
 kdeadmin	kcron.mo
 kdeadmin	kdat.mo
 kdeadmin	kpackage.mo
-# kdeadmin (rm)	ksysctrl.mo			-> kdenonbeta (jesli brak) - to duplikat
+kdeadmin	ksysctrl.mo
 kdeadmin	ksysv.mo
 kdeadmin	kuser.mo
 kdeadmin	kwuftpd.mo
@@ -76,7 +86,7 @@ kdebase		kcminfo.mo
 kdebase		kcminput.mo
 kdebase		kcmioslaveinfo.mo
 kdebase		kcmkclock.mo
-# kdebase	kcmkdb.mo		brak (-> nonbeta ???)
+kdebase		kcmkdb.mo
 kdebase		kcmkeys.mo
 kdebase		kcmkicker.mo
 kdebase		kcmkio.mo
@@ -115,7 +125,7 @@ kdebase		kdesud.mo
 kdebase		kdmchooser.mo
 kdebase		kdmconfig.mo
 kdebase		kdmgreet.mo
-# kdebase	kfind.mo
+kdebase		kfind.mo
 kdebase		kfindpart.mo
 kdebase		kfmclient.mo
 kdebase		kfmexec.mo
@@ -138,6 +148,7 @@ kdebase		kio_smbro.mo
 kdebase		kio_smtp.mo
 kdebase		kjobviewer.mo
 kdebase		klegacyimport.mo
+kdebase		kless.mo
 kdebase		klipper.mo
 # korzystaja z tego m. in. wyswietlacze w kdeartworks oraz kscreensaver
 # (kdebase-screensavers)
@@ -150,6 +161,7 @@ kdebase		kpager.mo
 kdebase		kpartapp.mo
 # kdebase	kpartsaver.mo			-> kdeartwork, ???
 kdebase		kpersonalizer.mo
+kdebase		kpm.mo
 kdebase		kprinter.mo
 kdebase		kreadconfig.mo
 kdebase		krunapplet.mo
@@ -201,6 +213,7 @@ kdegames	kbackgammon.mo
 kdegames	kbattleship.mo
 kdegames	kblackbox.mo
 kdegames	kbounce.mo
+kdegames	kchat.mo
 kdegames	kenolaba.mo
 kdegames	kjezz.mo
 kdegames	kjumpingcube.mo
@@ -212,6 +225,7 @@ kdegames	kpat.mo
 kdegames	kpoker.mo
 kdegames	kreversi.mo
 kdegames	ksame.mo
+kdegames	kscoreapplet.mo
 kdegames	kshisen.mo
 kdegames	ksirtet.mo
 kdegames	ksmiletris.mo
@@ -287,10 +301,8 @@ kdenetwork	libkdenetwork.mo
 ###kdenonbeta	colfind.mo
 ###kdenonbeta	columbo.mo
 ###kdenonbeta	cookbook.mo
-###kdenonbeta	devcenter.mo
 ###kdenonbeta	dvd.mo
 ###kdenonbeta	gofai.mo
-###kdenonbeta	imagerename_plugin.mo
 ###kdenonbeta	kafka.mo
 ###kdenonbeta	kalaktic.mo
 ###kdenonbeta	karchiver.mo
@@ -298,7 +310,7 @@ kdenetwork	libkdenetwork.mo
 ###kdenonbeta	kaudiocreator.mo
 ###kdenonbeta	kautorun.mo
 ###kdenonbeta	kbiff.mo
-# kdenonbeta	kbugbuster.mo		-> kdesdk (+ nadpisac ten) - to duplikat
+###kdenonbeta	kbugbuster.mo		-> kdesdk (+ nadpisac ten) - to duplikat
 ###kdenonbeta	kcli.mo
 ###kdenonbeta	kcm_scsimanager.mo
 ###kdenonbeta	kcm_splash.mo
@@ -343,7 +355,6 @@ kdenetwork	libkdenetwork.mo
 ###kdenonbeta	kpplot.mo
 ###kdenonbeta	krn.mo
 ###kdenonbeta	kstockticker.mo
-###kdenonbeta	ksysctrl.mo
 ###kdenonbeta	ksystrayproxy.mo
 ###kdenonbeta	ktables.mo
 ###kdenonbeta	ktalk.mo
@@ -378,10 +389,9 @@ kdesdk		kbabel.mo
 kdesdk		kbabeldict.mo
 kdesdk		kbugbuster.mo
 # kdesdk ?	kdevelop.mo
-# kdesdk ?	kdevtipofday.mo
-# kdesdk ?	kless.mo
+kdesdk		kdevtipofday.mo
 kdesdk		kompare.mo
-# kdesdk (nu)	kstartperf.mo		(nie kompilowany)
+kdesdk		kstartperf.mo
 kdesdk		spy.mo
 kdetoys		amor.mo
 kdetoys		kaphorism.mo
@@ -389,7 +399,6 @@ kdetoys		kfifteenapplet.mo
 kdetoys		kfortune.mo
 kdetoys		kmoon.mo
 kdetoys		kodo.mo
-kdetoys		kscoreapplet.mo
 kdetoys		kteatime.mo
 kdetoys		ktux.mo
 kdetoys		kweather.mo
@@ -414,6 +423,18 @@ kdeutils	klaptopdaemon.mo
 kdeutils	kljettool.mo
 kdeutils	klpq.mo
 kdeutils	klprfax.mo
-kdeutils	kpm.mo
 kdeutils	kregexpeditor.mo
 kdeutils	ktimer.mo
+
+# <adgor>
+
+kdebase		cupsdconf.mo
+kdebase		desktop.mo
+kdebase		kmcop.mo
+kdebase		knotify.mo
+kdebase		libkscreensaver.mo
+kdebase		ppdtranslations.mo
+
+kdevelop	kdevelop.mo
+
+# </adgor>
