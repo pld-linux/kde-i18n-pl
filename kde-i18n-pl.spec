@@ -3,13 +3,13 @@
 # --with        subpackages             Builds subpackages
 #
 
+%define         _state          snapshots
+%define         _ver		3.1.90
+%define         _snap           030618
+
 %define		_topic		i18n
 %define		_lang		pl
 %define		_part		%{_topic}-%{_lang}
-
-%define         _state          snapshots
-%define         _ver		3.2
-%define         _snap           030615
 
 %define		_p1		kdelibs
 %define		_p2		kdeaddons
@@ -30,12 +30,13 @@
 Summary:	K Desktop Environment - Polish support
 Summary(pl):	KDE - wsparcie dla jêzyka polskiego
 Name:		kde-%{_part}
-Version:	%{_ver}
-Release:	0.%{_snap}.1
+Version:	%{_ver}.%{_snap}
+Release:	1
+Epoch:		1
 License:	GPL/LGPL
 Group:		X11/Applications
 Source0:        http://www.kernel.pl/~adgor/kde/%{name}-%{_snap}.tar.bz2
-# Source0-md5:	d486d7329534fac9f339a1139e8e3b2c
+# Source0-md5:	1521f78f482a4e5092703220ada9e608
 Source1:	kde-i18n-splitmo
 Source2:	kde-i18n-splitdoc
 BuildRequires:	kdelibs >= %{version}
