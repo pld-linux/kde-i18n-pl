@@ -7,8 +7,9 @@
 %define		_lang		pl
 %define		_part		%{_topic}-%{_lang}
 
-%define         _state          stable
-%define         _ver		3.1.1
+%define         _state          snapshots
+%define         _ver		3.2
+%define         _snap           030424
 
 %define		_p1		kdelibs
 %define		_p2		kdeaddons
@@ -33,7 +34,7 @@ Version:	%{_ver}
 Release:	0.%{_snap}.1
 License:	GPL/LGPL
 Group:		X11/Applications
-Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{_ver}/src/kde-%{_topic}/%{name}-%{version}.tar.bz2
+Source0:        http://team.pld.org.pl/~adgor/kde/kde-%{_topic}/%{name}-%{_snap}.tar.bz2
 Source1:	kde-i18n-splitmo
 Source2:	kde-i18n-splitdoc
 BuildRequires:	kdelibs >= %{version}
