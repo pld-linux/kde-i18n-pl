@@ -2,13 +2,18 @@
 #
 # ???		cupsdconf.mo
 # ???		desktop.mo
-kdelibs		devcenter.mo		# Co to jest? tylko po Polsku
-kdelibs		imagerename_plugin.mo	# Co to jest? tylko po Polsku
+# Co to jest? tylko po Polsku
+kdelibs		devcenter.mo
+# Co to jest? tylko po Polsku
+kdelibs		imagerename_plugin.mo
 kdelibs		katepart.mo
 kdelibs		kdelibs.mo
-kdelibs		kfile_diff.mo		# Co to?
-kdelibs		klogic.mo		# Co to wogóle jest?
-kdelibs		krfb.mo			# Co to jest? tylko po Wietnamsku...
+# Co to?
+kdelibs		kfile_diff.mo
+# Co to wogóle jest?
+kdelibs		klogic.mo
+# Co to jest? tylko po Wietnamsku...
+kdelibs		krfb.mo
 # ???		kmcop.mo
 # ???		knotify.mo
 # ???		libkscreensaver.mo
