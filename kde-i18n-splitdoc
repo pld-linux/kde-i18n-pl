@@ -9,6 +9,8 @@ kdeadmin	kdat
 kdeadmin	kpackage
 kdeadmin	ksysv
 kdeadmin	kuser
+kdeadmin	kwuftpd
+kdeadmin	kxconfig
 kdebase	kate
 kdebase	kdebugdialog
 kdebase	kdeprint
@@ -72,6 +74,7 @@ kdegames	ktron
 kdegames	ktuberling
 kdegames	kwin4
 kdegames	lskat
+kdegames	megami
 kdegraphics	kamera
 kdegraphics	kcoloredit
 kdegraphics	kdvi
@@ -99,9 +102,11 @@ kdemultimedia	kscd
 kdemultimedia	noatun
 kdenetwork	kdict
 kdenetwork	kget
+kdenetwork	kgpgcertmanager
 kdenetwork	kit
 kdenetwork	knewsticker
 kdenetwork	kopete
+kdenetwork	korn
 kdenetwork	kpf
 kdenetwork	kppp
 kdenetwork	krdc
@@ -135,6 +140,7 @@ kdetoys	kodo
 kdetoys	kteatime
 kdetoys	kweather
 kdetoys	kworldclock
+kdeutils	KRegExpEditor
 kdeutils	ark
 kdeutils	kcalc
 kdeutils	kcharselect
@@ -144,12 +150,11 @@ kdeutils	kfloppy
 kdeutils	kgpg
 kdeutils	khexedit
 kdeutils	kjots
-kdeutils	KRegExpEditor
 kdeutils	ksim
 kdeutils	ktimer
 kdeutils	kwallet
-#kdevelop	kdevelop
-#kdevelop	kde_app_devel
-#kdevelop	kdearch
+kdevelop	kde_app_devel
+kdevelop	kdearch
+kdevelop	kdevelop
 quanta	kxsldbg
 quanta	quanta
