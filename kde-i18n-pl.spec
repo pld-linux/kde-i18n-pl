@@ -5,7 +5,7 @@
 
 %define         _state          snapshots
 %define         _ver		3.2.90
-%define         _snap		040128
+%define         _snap		040312
 
 %define		_topic		i18n
 %define		_lang		pl
@@ -36,9 +36,10 @@ Epoch:		1
 License:	GPL/LGPL
 Group:		X11/Applications
 Source0:        http://www.kernel.pl/~adgor/kde/%{name}-%{_snap}.tar.bz2
-# Source0-md5:	78971760df6279e8321b5414bfa3de50
+# Source0-md5:	fab65cd1206d1d992efb16c5d1ab2ad9
 Source1:	kde-i18n-splitmo
-Source2:	kde-i18n-splitdoc
+Source2:	kde-i18n-splitdo
+Patch0:		%{name}-kmail_po.patch
 BuildRequires:	kdelibs-devel >= 9:3.1.93
 BuildRequires:	libxml2-progs >= 1:2.6.2
 BuildRequires:	gettext-devel
@@ -284,6 +285,7 @@ KDE - wsparcie dla jêzyka polskiego - t³umaczenia dla %{_p15}.
 
 %prep
 %setup -q -n %{name}-%{_snap}
+%patch0 -p1
 
 %build
 
@@ -292,6 +294,10 @@ KDE - wsparcie dla jêzyka polskiego - t³umaczenia dla %{_p15}.
 	--enable-final
 
 %{__make}
+
+rm messages/kdepim/kmail.gmo
+
+%{__make} -C messages/kdepim kmail.gmo
 
 %install
 rm -rf $RPM_BUILD_ROOT
