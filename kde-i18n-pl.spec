@@ -9,7 +9,7 @@
 
 %define         _state          snapshots
 %define         _ver		3.2
-%define         _snap           030424
+%define         _snap           030615
 
 %define		_p1		kdelibs
 %define		_p2		kdeaddons
@@ -34,8 +34,8 @@ Version:	%{_ver}
 Release:	0.%{_snap}.1
 License:	GPL/LGPL
 Group:		X11/Applications
-Source0:        http://team.pld.org.pl/~adgor/kde/%{name}-%{_snap}.tar.bz2
-# Source0-md5:	aa261eb0512ee76e480982ac74bf8e03
+Source0:        http://www.kernel.pl/~adgor/kde/%{name}-%{_snap}.tar.bz2
+# Source0-md5:	d486d7329534fac9f339a1139e8e3b2c
 Source1:	kde-i18n-splitmo
 Source2:	kde-i18n-splitdoc
 BuildRequires:	kdelibs >= %{version}
