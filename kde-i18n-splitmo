@@ -36,7 +36,6 @@ kdeaddons	kcmkontactnt.mo
 kdeaddons	kcmkuick.mo
 kdeaddons	kcmmediacontrol.mo
 kdeaddons	kcmvim.mo
-kdeaddons	kfile_desktop.mo
 kdeaddons	kfile_folder.mo
 kdeaddons	kfile_html.mo
 kdeaddons	kfile_txt.mo
@@ -62,7 +61,6 @@ kdeaddons	vimpart.mo
 kdeaddons	wakeup.mo
 kdeaddons	wavecapture.mo
 kdeaddons	webarchiver.mo
-kdeadmin	desktop_kdeadmin.mo
 kdeadmin	kcmlilo.mo
 kdeadmin	kcmlinuz.mo
 kdeadmin	kcron.mo
@@ -73,7 +71,6 @@ kdeadmin	kpackage.mo
 kdeadmin	ksysv.mo
 kdeadmin	kuser.mo
 kdeadmin	secpolicy.mo
-kdeartwork	desktop_kdeartwork.mo
 kdeartwork	klock.mo
 kdeartwork	kpartsaver.mo
 kdeartwork	kstyle_plastik_config.mo
@@ -85,7 +82,6 @@ kdeartwork	kxsconfig.mo
 kdebase	appletproxy.mo
 kdebase	childpanelextension.mo
 kdebase	clockapplet.mo
-kdebase	desktop_kdebase.mo
 kdebase	devicesapplet.mo
 kdebase	display.mo
 kdebase	dockbarextension.mo
@@ -234,7 +230,6 @@ kdebase	passwords.mo
 kdebase	privacy.mo
 kdebase	quicklauncher.mo
 kdebase	taskbarextension.mo
-kdeedu	desktop_kdeedu.mo
 kdeedu	flashkard.mo
 kdeedu	kalzium.mo
 kdeedu	kbruch.mo
@@ -253,7 +248,6 @@ kdeedu	ktouch.mo
 kdeedu	kverbos.mo
 kdeedu	kvoctrain.mo
 kdegames	atlantik.mo
-kdegames	desktop_kdegames.mo
 kdegames	kasteroids.mo
 kdegames	katomic.mo
 kdegames	kbackgammon.mo
@@ -287,7 +281,6 @@ kdegames	libkdegames.mo
 kdegames	libkdehighscores.mo
 kdegames	libksirtet.mo
 kdegames	lskat.mo
-kdegraphics	desktop_kdegraphics.mo
 kdegraphics	kcmkamera.mo
 kdegraphics	kcm_kviewcanvasconfig.mo
 kdegraphics	kcm_kviewgeneralconfig.mo
@@ -333,8 +326,6 @@ kdegraphics	kviewtemplateplugin.mo
 kdegraphics	kviewviewer.mo
 kdegraphics	libkscan.mo
 kdelibs	cupsdconf.mo
-kdelibs	desktop_kde-i18n.mo
-kdelibs	desktop_kdelibs.mo
 kdelibs	kabc_dir.mo
 kdelibs	kabc_file.mo
 kdelibs	kabcformat_binary.mo
@@ -361,7 +352,6 @@ kdelibs	timezones.mo
 kdemultimedia	artsbuilder.mo
 kdemultimedia	artscontrol.mo
 kdemultimedia	artsmodules.mo
-kdemultimedia	desktop_kdemultimedia.mo
 kdemultimedia	juk.mo
 kdemultimedia	kaboodle.mo
 kdemultimedia	kaudiocreator.mo
@@ -384,7 +374,6 @@ kdemultimedia	kscd.mo
 kdemultimedia	libkcddb.mo
 kdemultimedia	noatun.mo
 kdenetwork	dcopservice.mo
-kdenetwork	desktop_kdenetwork.mo
 kdenetwork	kcm_krfb.mo
 kdenetwork	kcmktalkd.mo
 kdenetwork	kcmkxmlrpcd.mo
@@ -409,7 +398,6 @@ kdenetwork	kwifimanager.mo
 kdenetwork	kwireless.mo
 kdenetwork	kxmlrpcd.mo
 kdepim	alarmdaemonctrl.mo
-kdepim	desktop_kdepim.mo
 kdepim	kabc2mutt.mo
 kdepim	kaddressbook.mo
 kdepim	kalarmdgui.mo
@@ -446,7 +434,6 @@ kdepim	libksieve.mo
 kdepim	libksync.mo
 kdesdk	cervisia.mo
 kdesdk	cvsservice.mo
-kdesdk	desktop_kdesdk.mo
 kdesdk	kbabel.mo
 kdesdk	kbugbuster.mo
 kdesdk	kcachegrind.mo
@@ -461,7 +448,6 @@ kdesdk	kuiviewer.mo
 kdesdk	spy.mo
 kdesdk	umbrello.mo
 kdetoys	amor.mo
-kdetoys	desktop_kdetoys.mo
 kdetoys	kfifteenapplet.mo
 kdetoys	kmoon.mo
 kdetoys	kodo.mo
@@ -470,7 +456,6 @@ kdetoys	ktux.mo
 kdetoys	kweather.mo
 kdetoys	kworldclock.mo
 kdeutils	ark.mo
-kdeutils	desktop_kdeutils.mo
 kdeutils	irkick.mo
 kdeutils	kcalc.mo
 kdeutils	kcardchooser.mo
@@ -497,7 +482,5 @@ kdeutils	kwalletmanager.mo
 kdeutils	userinfo.mo
 quanta	quanta.mo
 quanta	kxsldbg.mo
-quanta  desktop_quanta.mo
 kdevelop	kdevtipofday.mo
-kdevelop  desktop_kdevelop.mo
 kdevelop  qeditor.mo
