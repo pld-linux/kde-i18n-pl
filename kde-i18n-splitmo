@@ -417,3 +417,14 @@ kdeutils	klprfax.mo
 kdeutils	kpm.mo
 kdeutils	kregexpeditor.mo
 kdeutils	ktimer.mo
+
+# <adgor>
+
+kdebase		cupsdconf.mo
+kdebase		desktop.mo
+kdebase		kmcop.mo
+kdebase		knotify.mo
+kdebase		libkscreensaver.mo
+kdebase		ppdtranslations.mo
+
+# </adgor>
