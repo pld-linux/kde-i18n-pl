@@ -62,6 +62,7 @@ Obsoletes:	kde-%{_topic}-Polish
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
+%define		_prefix		/usr/X11R6
 %define         _htmldir        %{_docdir}/kde/HTML
 %define         _messagesdir    %{_datadir}/locale/%{_lang}/LC_MESSAGES
 
