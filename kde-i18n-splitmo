@@ -430,7 +430,6 @@ kdesdk		kfile_po.mo
 kdesdk		kompare.mo
 kdesdk		kstartperf.mo
 kdesdk		qeditor.mo
-#separated: kdesdk		quanta.mo
 kdesdk		spy.mo
 # kdetoys
 kdetoys		amor.mo
