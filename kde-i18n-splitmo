@@ -460,7 +460,6 @@ kdesdk	kfile_ts.mo
 kdesdk	kompare.mo
 kdesdk	kstartperf.mo
 kdesdk	kuiviewer.mo
-kdesdk	qeditor.mo
 kdesdk	spy.mo
 kdesdk	umbrello.mo
 kdetoys	amor.mo
@@ -504,3 +503,4 @@ quanta  desktop_quanta.mo
 kdevelop	kdevelop.mo
 kdevelop	kdevtipofday.mo
 kdevelop  desktop_kdevelop.mo
+kdevelop  qeditor.mo
