@@ -18,12 +18,12 @@ BuildRequires:	gettext-devel
 BuildRequires:	kdelibs-devel >= 9:3.1.93
 BuildRequires:	libxml2-progs >= 1:2.6.2
 BuildRequires:	rpmbuild(macros) >= 1.129
-BuildRequires:	unsermake
+#BuildRequires:	unsermake
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_messagesdir	%{_datadir}/locale/%{_lang}/LC_MESSAGES
-%define		__unsermake	%{_datadir}/unsermake/unsermake
+#%define		__unsermake	%{_datadir}/unsermake/unsermake
 
 %description
 K Desktop Environment - Polish support.
