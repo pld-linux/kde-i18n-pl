@@ -287,7 +287,6 @@ KDE - wsparcie dla jêzyka polskiego - t³umaczenia dla %{_p15}.
 %setup -q -n %{name}
 
 %build
-kde_htmldir="%{_htmldir}"; export kde_htmldir
 
 %configure
 
@@ -296,7 +295,9 @@ kde_htmldir="%{_htmldir}"; export kde_htmldir
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} DESTDIR=$RPM_BUILD_ROOT install
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT \
+	kde_htmldir=%{_htmldir}
 
 install -d $RPM_BUILD_ROOT%{_htmldir}/%{_lang}
 
