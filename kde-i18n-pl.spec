@@ -1,6 +1,6 @@
 
 %define		_state		unstable
-%define		_ver		3.3.92
+%define		_ver		3.4.0
 %define		_snap		%{nil}
 %define		_lang		pl
 
@@ -8,20 +8,23 @@ Summary:	K Desktop Environment - Polish support
 Summary(pl):	KDE - wsparcie dla jêzyka polskiego
 Name:		kde-i18n-%{_lang}
 Version:	%{_ver}
-Release:	1
+Release:	0.rc1.1
 Epoch:		1
 License:	GPL/LGPL
 Group:		X11/Applications
 #Source0:	ftp://ftp.pld-linux.org/software/kde/%{name}-%{_snap}.tar.bz2
-Source0:	ftp://ftp.kde.org/pub/kde/unstable/%{_ver}/src/kde-i18n/%{name}-%{version}.tar.bz2
-# Source0-md5:	afb1ccfc7f31d1d6462fc5a3b7253789
+#Source0:	ftp://ftp.kde.org/pub/kde/unstable/%{_ver}/src/kde-i18n/%{name}-%{version}.tar.bz2
+Source0:	ftp://ftp.kde.org/pub/kde/unstable/%{_ver}-rc1/src/kde-i18n/%{name}-%{version}-rc1.tar.bz2
+# Source0-md5:	03288300721806ba3e3faf3e37725b8d
+BuildRequires:	gettext-devel
 BuildRequires:	kdelibs-devel >= 9:3.1.93
 BuildRequires:	libxml2-progs >= 1:2.6.2
-BuildRequires:	gettext-devel
 BuildRequires:	rpmbuild(macros) >= 1.129
+BuildRequires:	unsermake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_messagesdir	%{_datadir}/locale/%{_lang}/LC_MESSAGES
+%define		__unsermake	%{_datadir}/unsermake/unsermake
 
 %description
 K Desktop Environment - Polish support.
@@ -39,12 +42,12 @@ KDE - wsparcie dla jêzyka polskiego.
 	--disable-rpath \
 	--enable-final
 
-%{__make}
+%{__unsermake}
 
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install \
+%{__unsermake} install \
 	DESTDIR=$RPM_BUILD_ROOT \
 	kde_htmldir=%{_kdedocdir}
 
