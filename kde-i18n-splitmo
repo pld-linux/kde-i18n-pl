@@ -161,6 +161,7 @@ kdebase		kpager.mo
 kdebase		kpartapp.mo
 # kdebase	kpartsaver.mo			-> kdeartwork, ???
 kdebase		kpersonalizer.mo
+kdebase		kpm.mo
 kdebase		kprinter.mo
 kdebase		kreadconfig.mo
 kdebase		krunapplet.mo
@@ -422,7 +423,6 @@ kdeutils	klaptopdaemon.mo
 kdeutils	kljettool.mo
 kdeutils	klpq.mo
 kdeutils	klprfax.mo
-kdeutils	kpm.mo
 kdeutils	kregexpeditor.mo
 kdeutils	ktimer.mo
 
