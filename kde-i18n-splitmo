@@ -82,11 +82,7 @@ kdeaddons	webarchiver.mo
 # kdeartwork
 kdeartwork	desktop_kdeartwork.mo
 kdeartwork	kpixmap2bitmap.mo
-kdeartwork	kless.mo
-kdeartwork	klock.mo
-kdeartwork	klpq.mo
 kdeartwork	kpartsaver.mo
-kdeartwork	ksysctrl.mo
 kdeartwork	kwin_cde_config.mo
 kdeartwork	kwin_glow_config.mo
 kdeartwork	kxsconfig.mo
@@ -99,6 +95,7 @@ kdeadmin	kdat.mo
 kdeadmin	kfile_deb.mo
 kdeadmin	kfile_rpm.mo
 kdeadmin	kpackage.mo
+kdeadmin	ksysctrl.mo
 kdeadmin	ksysv.mo
 kdeadmin	kuser.mo
 kdeadmin	kwuftpd.mo
@@ -206,7 +203,9 @@ kdebase		kio_smbro.mo
 kdebase		kio_smtp.mo
 kdebase		kjobviewer.mo
 kdebase		klegacyimport.mo
+kdebase		kless.mo
 kdebase		klipper.mo
+kdebase		klock.mo
 kdebase		klprfax.mo
 kdebase		kmenuedit.mo
 kdebase		kminipagerapplet.mo
@@ -457,6 +456,7 @@ kdeutils	kfloppy.mo
 kdeutils	khexedit.mo
 kdeutils	kjots.mo
 kdeutils	klaptopdaemon.mo
+kdeutils	klpq.mo
 kdeutils	kregexpeditor.mo
 kdeutils	ksim.mo
 kdeutils	ktimer.mo
