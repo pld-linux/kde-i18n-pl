@@ -4,7 +4,8 @@
 #
 
 %define         _state          snapshots
-%define         _ver		3.1.92
+%define         _ver		3.1.93
+%define         _snap		031107
 
 %define		_topic		i18n
 %define		_lang		pl
@@ -29,19 +30,19 @@
 Summary:	K Desktop Environment - Polish support
 Summary(pl):	KDE - wsparcie dla jêzyka polskiego
 Name:		kde-%{_part}
-Version:	%{_ver}
-Release:	2
+Version:	%{_ver}.%{_snap}
+Release:	1
 Epoch:		1
 License:	GPL/LGPL
 Group:		X11/Applications
-Source0:        http://www.kernel.pl/~adgor/kde/%{name}-%{version}.tar.bz2
-# Source0-md5:	b0da75c532cb558bd1b4b0806dde3848
+Source0:        http://www.kernel.pl/~adgor/kde/%{name}-%{_snap}.tar.bz2
+# Source0-md5:	25b1c7f85e367852199e936f917e8c82
 Source1:	kde-i18n-splitmo
 Source2:	kde-i18n-splitdoc
-BuildRequires:	kdelibs >= 9:%{version}
-BuildRequires:	kdelibs-devel >= 9:%{version}
-BuildRequires:	libxml2-progs >= 2.4.2
+BuildRequires:	kdelibs-devel >= 9:3.1.93
+BuildRequires:	libxml2-progs >= 1:2.6.2
 BuildRequires:	gettext-devel
+BuildRequires:	rpmbuild(macros) >= 1.129
 %if %{?_with_subpackages:0}1
 Conflicts:	%{_p1}-%{_part}
 Conflicts:	%{_p2}-%{_part}
@@ -64,7 +65,6 @@ Obsoletes:	kde-%{_topic}-Polish
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define         _htmldir        %{_docdir}/kde/HTML
 %define         _messagesdir    %{_datadir}/locale/%{_lang}/LC_MESSAGES
 
 %description
@@ -283,11 +283,13 @@ K Desktop Environment - Polish support - translations for %{_p15}.
 KDE - wsparcie dla jêzyka polskiego - t³umaczenia dla %{_p15}.
 
 %prep
-%setup -q
+%setup -q -n %{name}-%{_snap}
 
 %build
 
-%configure
+%configure \
+	--disable-rpath \
+	--enable-final
 
 %{__make}
 
@@ -296,9 +298,9 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT \
-	kde_htmldir=%{_htmldir}
+	kde_htmldir=%{_kdedocdir}
 
-install -d $RPM_BUILD_ROOT%{_htmldir}/%{_lang}
+install -d $RPM_BUILD_ROOT%{_kdedocdir}/%{_lang}
 
 %if %{?_with_subpackages:1}0
 touch {%{_p1},%{_p2},%{_p3},%{_p4},%{_p7},%{_p5},%{_p6},%{_p8},%{_p9},%{_p10},\
@@ -329,7 +331,7 @@ rm -rf $RPM_BUILD_ROOT
 %if %{?_with_subpackages:0}1
 %files
 %defattr(644,root,root,755)
-%{_htmldir}/%{_lang}
+%{_kdedocdir}/%{_lang}
 %{_datadir}/locale/%{_lang}/entry.desktop
 %{_messagesdir}/* 
 %else
