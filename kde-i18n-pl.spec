@@ -35,6 +35,7 @@ Release:	0.%{_snap}.1
 License:	GPL/LGPL
 Group:		X11/Applications
 Source0:        http://team.pld.org.pl/~adgor/kde/%{name}-%{_snap}.tar.bz2
+# Source0-md5:	aa261eb0512ee76e480982ac74bf8e03
 Source1:	kde-i18n-splitmo
 Source2:	kde-i18n-splitdoc
 BuildRequires:	kdelibs >= %{version}
