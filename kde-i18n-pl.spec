@@ -5,7 +5,7 @@
 
 %define         _state          snapshots
 %define         _ver		3.2.90
-%define         _snap		040312
+%define         _snap		040517
 
 %define		_topic		i18n
 %define		_lang		pl
@@ -35,8 +35,8 @@ Release:	1
 Epoch:		1
 License:	GPL/LGPL
 Group:		X11/Applications
-Source0:        http://www.kernel.pl/~adgor/kde/%{name}-%{_snap}.tar.bz2
-# Source0-md5:	fab65cd1206d1d992efb16c5d1ab2ad9
+Source0:        http://ep09.pld-linux.org/~adgor/kde/%{name}-%{_snap}.tar.bz2
+##%% Source0-md5:	fab65cd1206d1d992efb16c5d1ab2ad9
 Source1:	kde-i18n-splitmo
 Source2:	kde-i18n-splitdo
 Patch0:		%{name}-kmail_po.patch
