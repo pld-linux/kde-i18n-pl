@@ -9,10 +9,11 @@ kdelibs		desktop_kde-i18n.mo
 kdelibs		desktop_kdelibs.mo
 kdelibs		kab3.mo
 kdelibs		kabc_dir.mo
-kdelibs		kabcformat_binary.mo
+kdelibs		kabc_file.mo
 kdelibs		kabc_ldap.mo
 kdelibs		kabc_net.mo
 kdelibs		kabc_sql.mo
+kdelibs		kabcformat_binary.mo
 kdelibs		katepart.mo
 kdelibs		kdelibs.mo
 # Where is it from??
@@ -40,13 +41,16 @@ kdeaddons	ffrs.mo
 kdeaddons	imagerename_plugin.mo
 kdeaddons	imgalleryplugin.mo
 kdeaddons	jefferson.mo
+kdeaddons	katedefaultproject.mo
 kdeaddons	katefll_initplugin.mo
 kdeaddons	katefll_plugin.mo
 kdeaddons	katehelloworld.mo
 kdeaddons	katehtmltools.mo
 kdeaddons	kateinsertcommand.mo
+kdeaddons	kateisearch.mo
 kdeaddons	katemodeline.mo
 kdeaddons	kateopenheader.mo
+kdeaddons	kate_plugins.po
 kdeaddons	kateprojectmanager.mo
 kdeaddons	katepybrowse.mo
 kdeaddons	katespell.mo
@@ -110,6 +114,7 @@ kdebase		drkonqi.mo
 kdebase		extensionproxy.mo
 kdebase		filetypes.mo
 kdebase		fontinst.mo
+kdebase		helpcenter.mo
 kdebase		htmlsearch.mo
 kdebase		kaccess.mo
 kdebase		kappfinder.mo
@@ -164,6 +169,7 @@ kdebase		kcmstyle.mo
 kdebase		kcmtaskbar.mo
 kdebase		kcmthemes.mo
 kdebase		kcmusb.mo
+kdebase		kcmwidgetsettings.mo
 kdebase		kcontrol.mo
 kdebase		kdcop.mo
 kdebase		kdebugdialog.mo
@@ -254,6 +260,7 @@ kdeedu		keduca.mo
 kdeedu		kgeo.mo
 kdeedu		khangman.mo
 kdeedu		kiten.mo
+kdeedu		Kiten.mo
 kdeedu		klettres.mo
 kdeedu		kmathtool.mo
 kdeedu		kmessedwords.mo
@@ -338,6 +345,7 @@ kdegraphics	libkscan.mo
 kdemultimedia	aktion.mo
 kdemultimedia	artsbuilder.mo
 kdemultimedia	artscontrol.mo
+kdemultimedia	artsmodules.mo
 kdemultimedia	desktop_kdemultimedia.mo
 kdemultimedia	kaboodle.mo
 kdemultimedia	kaudiocreator.mo
@@ -393,6 +401,7 @@ kdepim		kabc2mutt.mo
 kdepim		kaddressbook.mo
 kdepim		kalarmdgui.mo
 kdepim		kalarm.mo
+kdepim		kalarmd.mo
 kdepim		kandy.mo
 kdepim		karm.mo
 kdepim		kfile_vcf.mo
