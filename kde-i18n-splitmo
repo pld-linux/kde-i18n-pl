@@ -1,4 +1,6 @@
 ## spec		file
+## WARNING!!!!!!
+## As separator HAS to be tab
 
 # kdelibs
 kdelibs		cupsdconf.mo
