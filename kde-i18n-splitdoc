@@ -148,8 +148,8 @@ kdeutils	KRegExpEditor
 kdeutils	ksim
 kdeutils	ktimer
 kdeutils	kwallet
-kdevelop	kdevelop
-kdevelop	kde_app_devel
-kdevelop	kdearch
+#kdevelop	kdevelop
+#kdevelop	kde_app_devel
+#kdevelop	kdearch
 quanta	kxsldbg
 quanta	quanta
