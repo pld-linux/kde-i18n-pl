@@ -35,7 +35,7 @@ Epoch:		1
 License:	GPL/LGPL
 Group:		X11/Applications
 Source0:        http://www.kernel.pl/~adgor/kde/%{name}-%{version}.tar.bz2
-# Source0-md5:	96fe0623ca0015eb16a18cd1290950fb
+# Source0-md5:	b0da75c532cb558bd1b4b0806dde3848
 Source1:	kde-i18n-splitmo
 Source2:	kde-i18n-splitdoc
 BuildRequires:	kdelibs >= 9:%{version}
