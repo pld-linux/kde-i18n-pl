@@ -2,8 +2,8 @@
 #
 # ???		cupsdconf.mo
 # ???		desktop.mo
-# ???		katepart.mo
-# ???		kdelibs.mo
+# kdelibs	katepart.mo
+# kdelibs	kdelibs.mo
 # ???		kmcop.mo
 # ???		knotify.mo
 # ???		libkscreensaver.mo
@@ -115,7 +115,7 @@ kdebase		kdesud.mo
 kdebase		kdmchooser.mo
 kdebase		kdmconfig.mo
 kdebase		kdmgreet.mo
-# kdebase	kfind.mo
+kdebase		kfind.mo
 kdebase		kfindpart.mo
 kdebase		kfmclient.mo
 kdebase		kfmexec.mo
