@@ -454,8 +454,6 @@ kdesdk	desktop_quanta.mo
 kdesdk	kbabel.mo
 kdesdk	kbugbuster.mo
 kdesdk	kcachegrind.mo
-kdesdk	kdevelop.mo
-kdesdk	kdevtipofday.mo
 kdesdk	kfile_cpp.mo
 kdesdk	kfile_diff.mo
 kdesdk	kfile_po.mo
@@ -504,3 +502,5 @@ kdeutils	ktimer.mo
 kdeutils	kwalletmanager.mo
 kdeutils	userinfo.mo
 quanta	quanta.mo
+kdevelop	kdevelop.mo
+kdevelop	kdevtipofday.mo
