@@ -282,7 +282,7 @@ K Desktop Environment - Polish support - translations for %{_p15}.
 KDE - wsparcie dla jêzyka polskiego - t³umaczenia dla %{_p15}.
 
 %prep
-%setup -q -n %{name}
+%setup -q
 
 %build
 
