@@ -225,6 +225,7 @@ kdegames	kpat.mo
 kdegames	kpoker.mo
 kdegames	kreversi.mo
 kdegames	ksame.mo
+kdegames	kscoreapplet.mo
 kdegames	kshisen.mo
 kdegames	ksirtet.mo
 kdegames	ksmiletris.mo
@@ -398,7 +399,6 @@ kdetoys		kfifteenapplet.mo
 kdetoys		kfortune.mo
 kdetoys		kmoon.mo
 kdetoys		kodo.mo
-kdetoys		kscoreapplet.mo
 kdetoys		kteatime.mo
 kdetoys		ktux.mo
 kdetoys		kweather.mo
