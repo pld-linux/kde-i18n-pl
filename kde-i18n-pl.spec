@@ -4,7 +4,7 @@
 #
 
 %define		_state		stable
-%define		_ver		3.1.3
+%define		_ver		3.2.2
 
 %define		_topic		i18n
 %define		_lang		pl
@@ -35,7 +35,7 @@ Epoch:		1
 License:	GPL/LGPL
 Group:		X11/Applications
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/kde-i18n/%{name}-%{version}.tar.bz2
-# Source0-md5:	8a59eed1989576084d20631ba94be07a
+# Source0-md5:	6709a98387ef543e070428e0840edc13
 Source1:	kde-i18n-splitmo
 Source2:	kde-i18n-splitdoc
 BuildRequires:	kdelibs >= %{version}
