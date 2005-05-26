@@ -1,13 +1,13 @@
 
 %define		_state		stable
-%define		_ver		3.4
+%define		_ver		3.4.1
 %define		_snap		%{nil}
 %define		_lang		pl
 
 Summary:	K Desktop Environment - Polish support
 Summary(pl):	KDE - wsparcie dla jêzyka polskiego
 Name:		kde-i18n-%{_lang}
-Version:	%{_ver}.0
+Version:	%{_ver}
 Release:	1
 Epoch:		1
 License:	GPL/LGPL
@@ -15,7 +15,7 @@ Group:		X11/Applications
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{_ver}/src/kde-i18n/%{name}-%{version}.tar.bz2
 # Source0-md5:	666b27c705a8117ab99082e9f4cddc0c
 BuildRequires:	gettext-devel
-BuildRequires:	kdelibs-devel >= 9:3.1.93
+BuildRequires:	kdelibs-devel >= 9:3.4.1
 BuildRequires:	libxml2-progs >= 1:2.6.2
 BuildRequires:	rpmbuild(macros) >= 1.129
 #BuildRequires:	unsermake
