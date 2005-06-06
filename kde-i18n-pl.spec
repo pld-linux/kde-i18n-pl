@@ -13,7 +13,7 @@ Epoch:		1
 License:	GPL/LGPL
 Group:		X11/Applications
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{_ver}/src/kde-i18n/%{name}-%{version}.tar.bz2
-# Source0-md5:	666b27c705a8117ab99082e9f4cddc0c
+# Source0-md5:	a8a4274f098cca840aff4815ed0f2dc7
 BuildRequires:	gettext-devel
 BuildRequires:	kdelibs-devel >= 9:3.4.1
 BuildRequires:	libxml2-progs >= 1:2.6.2
