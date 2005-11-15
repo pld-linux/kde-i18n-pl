@@ -8,7 +8,7 @@ Summary:	K Desktop Environment - Polish support
 Summary(pl):	KDE - wsparcie dla jêzyka polskiego
 Name:		kde-i18n-%{_lang}
 Version:	%{_ver}
-Release:	1
+Release:	0.1
 Epoch:		1
 License:	GPL/LGPL
 Group:		X11/Applications
