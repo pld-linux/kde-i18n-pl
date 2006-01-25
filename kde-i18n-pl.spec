@@ -37,7 +37,7 @@ KDE - wsparcie dla jêzyka polskiego.
 
 %configure \
 	--disable-rpath \
-	--enable-final
+	--disable-final
 
 %{__make}
 
