@@ -1,7 +1,7 @@
 
 %define		_state		stable
-%define		_kdever		3.5.2
-%define		_ver		3.5.2
+%define		_kdever		3.5.4
+%define		_ver		3.5.4
 %define		_snap		%{nil}
 %define		_lang		pl
 
@@ -14,7 +14,7 @@ Epoch:		1
 License:	GPL/LGPL
 Group:		X11/Applications
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{_kdever}/src/kde-i18n/%{name}-%{version}.tar.bz2
-# Source0-md5:	ed2038f4a158435298e5d592c1897317
+# Source0-md5:	47787ef2ad8516f4e0ca21b5daec64cc
 BuildRequires:	gettext-devel
 BuildRequires:	kdelibs-devel >= 9:3.4.1
 BuildRequires:	libxml2-progs >= 1:2.6.2
