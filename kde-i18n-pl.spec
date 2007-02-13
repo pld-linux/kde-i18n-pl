@@ -6,7 +6,7 @@
 %define		_lang		pl
 
 Summary:	K Desktop Environment - Polish support
-Summary(pl.UTF-8):   KDE - wsparcie dla języka polskiego
+Summary(pl.UTF-8):	KDE - wsparcie dla języka polskiego
 Name:		kde-i18n-%{_lang}
 Version:	%{_ver}
 Release:	1
