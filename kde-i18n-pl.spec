@@ -12,7 +12,7 @@ Version:	%{_ver}
 Release:	1
 Epoch:		1
 License:	GPL/LGPL
-Group:		X11/Applications
+Group:		I18n
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{_kdever}/src/kde-i18n/%{name}-%{version}.tar.bz2
 # Source0-md5:	5467708649518662692c93d3c12dcebb
 BuildRequires:	gettext-devel
